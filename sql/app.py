@@ -157,7 +157,7 @@ TEMPLATE = """
 <html>
 <head>
 <meta charset="utf-8">
-<title>Micro Security Scanner</title>
+<title>SQL Security Scanner</title>
 <style>
 body { font-family: Arial,sans-serif; background:#f6f8fa; margin:0; padding:20px;}
 .container { max-width:900px; margin:0 auto; background:white; padding:20px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,.08);}
@@ -172,7 +172,7 @@ footer { margin-top:18px; color:#555; font-size:12px; }
 </head>
 <body>
 <div class="container">
-<h1>Micro Security Scanner</h1>
+<h1>SQL Security Scanner</h1>
 
 {% with messages = get_flashed_messages(with_categories=true) %}
 {% if messages %}
