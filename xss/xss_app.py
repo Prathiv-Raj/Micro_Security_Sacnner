@@ -176,7 +176,7 @@ app.secret_key = "replace-in-prod"
 TEMPLATE = """
 <!doctype html>
 <html>
-<head><meta charset="utf-8"><title>XSS PoC Scanner</title>
+<head><meta charset="utf-8"><title>XSS Security Scanner</title>
 <style>
 body{font-family:Arial,Helvetica,sans-serif;background:#f6f8fa;padding:20px}
 .container{max-width:900px;margin:0 auto;background:#fff;padding:20px;border-radius:8px}
@@ -191,7 +191,7 @@ pre{background:#111;color:#dfd;padding:12px;border-radius:6px;overflow:auto}
 </head>
 <body>
 <div class="container">
-<h1>XSS PoC Scanner (minimal)</h1>
+<h1>XSS Security Scanner</h1>
 <p><strong>Use only on authorized targets.</strong></p>
 <form method="post">
 <input type="text" name="url" placeholder="https://example.com/page.php?id=1" required>
